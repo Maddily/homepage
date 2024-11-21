@@ -31,12 +31,6 @@ header.about-me {
   }
 }
 
-@media (min-width: 800px) {
-  .trapezoid {
-    transform: translate(-50px, -240px) scale(2) skewY(-17deg) rotate(180deg);
-  }
-}
-
 @media (min-width: 1000px) {
   .trapezoid {
     transform: translate(-50px, -240px) scale(2) skewY(-13deg) rotate(180deg);

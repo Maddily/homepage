@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+header.about-me {
+}
+
+.trapezoid {
+  height: 400px;
+  background: #6D3914;
+  background: #AB7843;
+  /* background: #4C2B08; */
+  /* background: #9C0D0F; */
+  transform: translate(-50px, -220px) scale(2) skewY(-20deg) rotate(170deg);
+}
+
+@media (min-width: 600px) {
+  .trapezoid {
+    transform: translate(-50px, -240px) scale(2) skewY(-19deg) rotate(180deg);
+  }
+}
+
+@media (min-width: 800px) {
+  .trapezoid {
+    transform: translate(-50px, -240px) scale(2) skewY(-17deg) rotate(180deg);
+  }
+}
+
+@media (min-width: 800px) {
+  .trapezoid {
+    transform: translate(-50px, -240px) scale(2) skewY(-17deg) rotate(180deg);
+  }
+}
+
+@media (min-width: 1000px) {
+  .trapezoid {
+    transform: translate(-50px, -240px) scale(2) skewY(-13deg) rotate(180deg);
+  }
+}
+
+@media (min-width: 1200px) {
+  .trapezoid {
+    transform: translate(-50px, -240px) scale(2) skewY(-10deg) rotate(180deg);
+  }
+}
+

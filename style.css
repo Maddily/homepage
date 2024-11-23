@@ -26,7 +26,7 @@ header.about-me {
   position: relative;
 }
 
-header.about-me, main {
+header.about-me, .projects {
   padding: 1.5rem;
 }
 
@@ -151,15 +151,15 @@ header.about-me, main {
     -10px 5px 10px rgba(185, 185, 185, 0.2), 5px 5px 5px rgba(185, 185, 185, 0.2);
   transition: transform 300ms ease-in-out;
   will-change: transform;
+  max-width: 300px;
 }
 
 .project-container:hover {
   transform: scale(1.015);
 }
 
-.project-container,
 .screenshot {
-  width: 250px;
+  width: 100%;
 }
 
 .project-data-container {
@@ -227,12 +227,50 @@ header.about-me, main {
   .social-icon-container {
     display: none;
   }
+
+  .projects {
+    margin: 0 auto;
+    padding-top: 6rem;
+  }
+
+  .my-work {
+    text-align: left;
+  }
+
+  .project-container {
+    margin: 0;
+    max-width: unset;
+  }
+
+  .project-heading, .project-description {
+    width: 100%;
+  }
+
+  .project-heading {
+    justify-content: space-between;
+    padding: 0 10px;
+  }
 }
 
 @media (min-width: 650px) {
   .header-content-container {
     width: fit-content;
     margin: 30px auto;
+  }
+
+  .projects {
+    padding-top: 4rem;
+  }
+
+  .project-container {
+    max-width: unset;
+  }
+}
+
+@media (min-width: 700px) {
+  .projects {
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 }
 
@@ -262,6 +300,10 @@ header.about-me, main {
 
   .about-me-paragraph {
     font-size: 1.1rem;
+  }
+
+  .projects {
+    padding-top: 8rem;
   }
 }
 
@@ -296,10 +338,26 @@ header.about-me, main {
     display: flex;
     justify-content: flex-end;
   }
+
+  .projects {
+    padding: 0 5rem;
+    transform: translateY(-15%);
+  }
 }
 
 @media (min-width: 1200px) {
   .trapezoid {
     transform: translate(-50px, -240px) scale(2) skewY(-10deg) rotate(180deg);
+  }
+
+  .projects {
+    padding: 0 12rem;
+    transform: translateY(-14%);
+  }
+}
+
+@media (min-width: 1245px) {
+  .projects {
+    transform: translateY(-20%);
   }
 }

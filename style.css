@@ -174,7 +174,33 @@ header.about-me {
   .trapezoid {
     transform: translate(-50px, -240px) scale(2) skewY(-13deg) rotate(180deg);
   }
+
   /* Implement layout for larger screens devices */
+  .image-name-container {
+    transform: translateX(-250px);
+    float: none;
+  }
+
+  .name {
+    transform: translate(0%, -115%);
+    font-size: 4rem;
+  }
+
+  .about-me-container {
+    transform: translate(200px, -59%);
+    height: fit-content;
+    width: 500px;
+    padding: 2rem;
+  }
+
+  .about-me-heading {
+    text-align: left;
+  }
+
+  .social-icon-container {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 @media (min-width: 1200px) {

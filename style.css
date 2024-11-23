@@ -6,7 +6,11 @@ body {
   height: 100vh;
   overflow-x: hidden;
   position: relative;
-  font-family: 'EB Garamond', Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+h1, h2 {
+  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
 }
 
 .trapezoid {
@@ -147,8 +151,8 @@ header.about-me {
   }
 
   .name {
-    transform: translate(75%, -470%);
-    font-size: 5rem;
+    transform: translate(80%, -510%);
+    font-size: 4.5rem;
   }
 
   .image {

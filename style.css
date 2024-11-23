@@ -24,6 +24,9 @@ h2, h3 {
 
 header.about-me {
   position: relative;
+}
+
+header.about-me, main {
   padding: 1.5rem;
 }
 

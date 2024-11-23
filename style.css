@@ -144,8 +144,8 @@ header.about-me {
 
 .project-container {
   margin: 0 auto;
-  box-shadow: 0px 2px 10px rgba(86, 86, 86, 0.2),
-    -10px 5px 10px rgba(86, 86, 86, 0.2), 5px 5px 5px rgba(86, 86, 86, 0.2);
+  box-shadow: 0px 2px 10px rgba(185, 185, 185, 0.2),
+    -10px 5px 10px rgba(185, 185, 185, 0.2), 5px 5px 5px rgba(185, 185, 185, 0.2);
   transition: transform 300ms ease-in-out;
   will-change: transform;
 }

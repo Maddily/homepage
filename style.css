@@ -239,6 +239,7 @@ footer.contact p {
 .footer-image {
   width: 100%;
   margin-top: 4rem;
+  display: block;
 }
 
 @media (min-width: 400px) {
@@ -343,7 +344,6 @@ footer.contact p {
   .footer-image {
     width: 300px;
     margin-top: 0;
-    display: block;
     margin-right: 1.5rem;
   }
 }

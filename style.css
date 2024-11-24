@@ -168,6 +168,7 @@ header.about-me,
 
 .project-container:hover {
   transform: scale(1.015);
+  background: rgba(195, 200, 140, 0.1);
 }
 
 .screenshot {
